@@ -1,4 +1,4 @@
-data = open("day_01_data","r")
+data = open("day_01_data.txt","r")
 lista = data.read().split('\n')
 lista_int = list(map(int, lista))
 
